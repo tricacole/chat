@@ -1,6 +1,6 @@
 
 *{
-  margin:0; 
+  margin:0;
   padding:0;
   font-size: 16.5px;
   font-family:sans-serif;
@@ -10,10 +10,8 @@
 
 
 
-div#table{
+div#tabla{
   height: 400px;
   width: 400px;
   overflow-y: scroll;
 }
-
-

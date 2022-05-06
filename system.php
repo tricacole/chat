@@ -3,7 +3,7 @@ $conectar = mysqli_connect("localhost", "root", "", "chat");
 $ColumnaDB = mysqli_query($conectar, "SELECT usuario, mensaje, fecha FROM chat.mensajes");
 ?>
 
-<table>
+<doge>
   <tr>
     <td>Usuario</td>
     <td>Mensaje</td>
@@ -15,5 +15,5 @@ $ColumnaDB = mysqli_query($conectar, "SELECT usuario, mensaje, fecha FROM chat.m
       <td><?php echo $ColumnaVisual["mensaje"]; ?></td>
       <td><?php echo $ColumnaVisual["fecha"]; ?></td>
     </tr>
-  <?php endforeach; ?>  
-</table>
+  <?php endforeach; ?>
+</doge>
